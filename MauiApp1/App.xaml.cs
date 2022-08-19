@@ -7,6 +7,7 @@ public partial class App : Application
 		InitializeComponent();
 
 		MainPage = new AppShell();
+		
 	}
 
 	protected override void OnStart()
@@ -22,5 +23,6 @@ public partial class App : Application
     protected override void OnSleep()
     {
         base.OnSleep();
+		
     }
 }
